@@ -1,0 +1,7 @@
+pluginManagement {
+    includeBuild('../node_modules/@react-native/gradle-plugin')
+}
+
+rootProject.name = 'ParentBridge'
+
+include ':app'
