@@ -2,8 +2,13 @@
  * @format
  */
 
+<<<<<<< HEAD
 import * as React from 'react';
 import * as ReactTestRenderer from 'react-test-renderer';
+=======
+import React from 'react';
+import ReactTestRenderer from 'react-test-renderer';
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 import App from '../App';
 
 test('renders correctly', async () => {
@@ -11,6 +16,7 @@ test('renders correctly', async () => {
     ReactTestRenderer.create(<App />);
   });
 });
+<<<<<<< HEAD
 test('renders MainTabs correctly when user is authenticated', async () => {
   const mockUseAuth = jest.spyOn(require('../src/context/AuthContext'), 'useAuth');
   mockUseAuth.mockReturnValue({ user: { id: '123' }, loading: false });
@@ -64,3 +70,5 @@ module.exports = {
   ],
   setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
 };
+=======
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5

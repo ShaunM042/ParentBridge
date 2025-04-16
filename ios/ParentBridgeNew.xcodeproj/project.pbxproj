@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		195C9BEBE62125DAB5C475CC /* libPods-ParentBridgeNew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B04BBFC49F867A037C960 /* libPods-ParentBridgeNew.a */; };
+=======
+		0C80B921A6F3F58F76C31292 /* libPods-ParentBridgeNew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ParentBridgeNew.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 		38CC5AFF6BCC63DC5CC1568D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -19,11 +24,19 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ParentBridgeNew/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ParentBridgeNew/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ParentBridgeNew/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		419B04BBFC49F867A037C960 /* libPods-ParentBridgeNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParentBridgeNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ParentBridgeNew/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ParentBridgeNew/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A309CAD1A20F2C95FA0DE8B1 /* Pods-ParentBridgeNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParentBridgeNew.release.xcconfig"; path = "Target Support Files/Pods-ParentBridgeNew/Pods-ParentBridgeNew.release.xcconfig"; sourceTree = "<group>"; };
 		B9696F72A6DEA13167A99148 /* Pods-ParentBridgeNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParentBridgeNew.debug.xcconfig"; path = "Target Support Files/Pods-ParentBridgeNew/Pods-ParentBridgeNew.debug.xcconfig"; sourceTree = "<group>"; };
+=======
+		3B4392A12AC88292D35C810B /* Pods-ParentBridgeNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParentBridgeNew.debug.xcconfig"; path = "Target Support Files/Pods-ParentBridgeNew/Pods-ParentBridgeNew.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-ParentBridgeNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParentBridgeNew.release.xcconfig"; path = "Target Support Files/Pods-ParentBridgeNew/Pods-ParentBridgeNew.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-ParentBridgeNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParentBridgeNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ParentBridgeNew/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ParentBridgeNew/LaunchScreen.storyboard; sourceTree = "<group>"; };
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -32,7 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				195C9BEBE62125DAB5C475CC /* libPods-ParentBridgeNew.a in Frameworks */,
+=======
+				0C80B921A6F3F58F76C31292 /* libPods-ParentBridgeNew.a in Frameworks */,
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+<<<<<<< HEAD
 				419B04BBFC49F867A037C960 /* libPods-ParentBridgeNew.a */,
+=======
+				5DCACB8F33CDC322A6C60F78 /* libPods-ParentBridgeNew.a */,
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,8 +113,13 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				B9696F72A6DEA13167A99148 /* Pods-ParentBridgeNew.debug.xcconfig */,
 				A309CAD1A20F2C95FA0DE8B1 /* Pods-ParentBridgeNew.release.xcconfig */,
+=======
+				3B4392A12AC88292D35C810B /* Pods-ParentBridgeNew.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-ParentBridgeNew.release.xcconfig */,
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,13 +131,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ParentBridgeNew" */;
 			buildPhases = (
+<<<<<<< HEAD
 				80107C31230BEFD75FAF5CF5 /* [CP] Check Pods Manifest.lock */,
+=======
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+<<<<<<< HEAD
 				1F3920459FA9AE4C60468CB7 /* [CP] Embed Pods Frameworks */,
 				CE36F28BA45615BB8CCB6365 /* [CP] Copy Pods Resources */,
+=======
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 			);
 			buildRules = (
 			);
@@ -183,7 +218,11 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
+<<<<<<< HEAD
 		1F3920459FA9AE4C60468CB7 /* [CP] Embed Pods Frameworks */ = {
+=======
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,7 +239,11 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParentBridgeNew/Pods-ParentBridgeNew-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
 		80107C31230BEFD75FAF5CF5 /* [CP] Check Pods Manifest.lock */ = {
+=======
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,7 +265,11 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
 		CE36F28BA45615BB8CCB6365 /* [CP] Copy Pods Resources */ = {
+=======
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,7 +302,11 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = B9696F72A6DEA13167A99148 /* Pods-ParentBridgeNew.debug.xcconfig */;
+=======
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ParentBridgeNew.debug.xcconfig */;
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -283,7 +334,11 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = A309CAD1A20F2C95FA0DE8B1 /* Pods-ParentBridgeNew.release.xcconfig */;
+=======
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ParentBridgeNew.release.xcconfig */;
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -340,7 +395,11 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+<<<<<<< HEAD
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+=======
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -420,7 +479,11 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+<<<<<<< HEAD
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+=======
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

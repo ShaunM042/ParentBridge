@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // filepath: /Users/shaunmathew/Downloads/ParentBridge-main/jest/setup.js
 jest.mock('react-native-gesture-handler', () => {
   return {
@@ -35,3 +36,8 @@ module.exports = {
   setupFiles: ['./jest/setup.js'], // Add the setup file here
   setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
 };
+=======
+module.exports = {
+  preset: 'react-native',
+};
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5

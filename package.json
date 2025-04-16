@@ -20,11 +20,16 @@
     "@react-native-firebase/messaging": "^21.14.0",
     "@react-native-firebase/storage": "^21.14.0",
     "@react-native-google-signin/google-signin": "^13.2.0",
+<<<<<<< HEAD
     "@react-navigation/bottom-tabs": "^6.5.7",
+=======
+    "@react-navigation/bottom-tabs": "^7.3.10",
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
     "@react-navigation/native": "^7.1.6",
     "@react-navigation/stack": "^7.2.10",
     "expo-image-picker": "^16.0.6",
     "expo-local-authentication": "^15.0.2",
+<<<<<<< HEAD
     "react": "17.0.2",
     "react-native": "0.65.1",
     "react-native-chart-kit": "^6.12.0",
@@ -34,6 +39,16 @@
     "react-native-reanimated": "^2.17.0",
     "react-native-safe-area-context": "^4.5.0",
     "react-native-screens": "^3.20.0",
+=======
+    "react": "19.0.0",
+    "react-native": "^0.79.0",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-fbsdk-next": "^13.4.1",
+    "react-native-image-picker": "^8.2.0",
+    "react-native-reanimated": "^3.17.3",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "^4.10.0",
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
     "react-native-sound": "^0.11.2",
     "react-native-vector-icons": "^10.2.0"
   },
@@ -41,6 +56,7 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
+<<<<<<< HEAD
     "@react-native-community/cli": "^18.0.0",
     "@react-native-community/cli-platform-android": "18.0.0",
     "@react-native/babel-preset": "0.79.0",
@@ -60,6 +76,21 @@
     "jest": "^29.7.0",
     "prettier": "2.8.8",
     "react-test-renderer": "^18.2.0",
+=======
+    "@react-native-community/cli": "18.0.0",
+    "@react-native-community/cli-platform-android": "18.0.0",
+    "@react-native/babel-preset": "0.79.0",
+    "@react-native/eslint-config": "0.79.0",
+    "@react-native/metro-config": "0.79.0",
+    "@react-native/typescript-config": "0.79.0",
+    "@types/jest": "^29.5.13",
+    "@types/react": "^19.0.0",
+    "@types/react-test-renderer": "^19.0.0",
+    "eslint": "^8.19.0",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
+    "react-test-renderer": "19.0.0",
+>>>>>>> 4afa2d97e8bf9adac2d6892e72b9d774a47647c5
     "typescript": "5.0.4"
   },
   "engines": {
