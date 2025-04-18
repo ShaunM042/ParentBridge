@@ -32,6 +32,6 @@ module.exports = {
   transformIgnorePatterns: [
     'node_modules/(?!(react-native|@react-native|@react-navigation)/)',
   ],
-  setupFiles: ['./jest/setup.js'], // Add the setup file here
+  setupFiles: ['./jest/setup.js'],
   setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
 };

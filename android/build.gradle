@@ -7,6 +7,7 @@ buildscript {
         targetSdkVersion  = 34
         kotlinVersion     = "1.8.0"
         ndkVersion        = "25.1.8937393"
+        reactNativeGradlePluginVersion = "0.73.1"
     }
 
     /** ➊  Repositories for build‑time dependencies */
@@ -19,14 +20,11 @@ buildscript {
     dependencies {
         classpath("com.android.tools.build:gradle:8.1.2")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-        /*  ─────────────────────────────────────────
-            If you decided to keep the new RN plugin,
-            leave the next line with 0.71.2:
-
-            classpath("com.facebook.react:react-native-gradle-plugin:0.71.2")
-           ───────────────────────────────────────── */
+        classpath("com.facebook.react:react-native-gradle-plugin:$reactNativeGradlePluginVersion")
     }
 }
+
+apply plugin: "com.facebook.react.rootproject"
 
 /* -------------------------------------------------------------
  * Do **not** add an allprojects { repositories { … } } section.
