@@ -1,0 +1,35 @@
+// android/build.gradle  — project‑level
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion     = 24
+        compileSdkVersion = 34
+        targetSdkVersion  = 34
+        kotlinVersion     = "1.8.0"
+        ndkVersion        = "25.1.8937393"
+    }
+
+    /** ➊  Repositories for build‑time dependencies */
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    /** ➋  Build‑time dependencies */
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.1.2")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+        /*  ─────────────────────────────────────────
+            If you decided to keep the new RN plugin,
+            leave the next line with 0.71.2:
+
+            classpath("com.facebook.react:react-native-gradle-plugin:0.71.2")
+           ───────────────────────────────────────── */
+    }
+}
+
+/* -------------------------------------------------------------
+ * Do **not** add an allprojects { repositories { … } } section.
+ * Repository configuration for *runtime* deps is handled in
+ * settings.gradle (dependencyResolutionManagement{}).
+ * ------------------------------------------------------------*/

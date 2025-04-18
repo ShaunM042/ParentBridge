@@ -1,0 +1,25 @@
+// android/settings.gradle  — project settings
+pluginManagement {
+    // Tell Gradle to look inside node_modules for the RN Gradle plugin ↓
+    includeBuild("../node_modules/@react-native/gradle-plugin")
+
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    // Do NOT allow repositories inside individual build files
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
+    repositories {
+        google()
+        mavenCentral()
+        // maven { url "https://jitpack.io" }   // uncomment only if you need it
+    }
+}
+
+rootProject.name = "ParentBridge"
+include(":app")
